@@ -63,6 +63,7 @@ Run msfconsole and use auliary/scanner/http/coldfusion_locale_traversal. Set the
 
 ![Image: Latest External Screenshot](https://i.ibb.co/7tZ9ydqF/Screenshot-2025-06-15-151858.png)
 
+
 ![Image: Final External Screenshot](https://i.ibb.co/KjHs1Sfw/Screenshot-2025-06-15-151902.png)
 
 Dont forget to change /etc/proxychains4.conf

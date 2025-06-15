@@ -56,29 +56,29 @@ https://matthewfl.com/unPacker.html
 
 so lets analyse the code
 function apiKeys()
-	{
-	var flag='HTB
-		{
-		n'+'3v3r_'+'run_0'+'bfu5c'+'473d_'+'c0d3!'+'
-	}
-	',xhr=new XMLHttpRequest(),_0x437f8b='/keys'+'.php';
-	xhr['open']('POST',_0x437f8b,!![]),xhr['send'](null)
-}
-console['log']('HTB
-	{
-	j'+'4v45c'+'r1p7_'+'3num3'+'r4710'+'n_15_'+'k3y
-}
-');
+	`{`
+	`var flag='HTB`
+		`{`
+		`n'+'3v3r_'+'run_0'+'bfu5c'+'473d_'+'c0d3!'+'`
+	`}`
+	`',xhr=new XMLHttpRequest(),_0x437f8b='/keys'+'.php';`
+	`xhr['open']('POST',_0x437f8b,!![]),xhr['send'](null)`
+`}`
+`console['log']('HTB`
+	`{`
+	`j'+'4v45c'+'r1p7_'+'3num3'+'r4710'+'n_15_'+'k3y`
+`}`
+`');`
 
 ===================
 part 1 :
 
-function apiKeys()
-	{
-	var flag='HTB
-		{
-		n'+'3v3r_'+'run_0'+'bfu5c'+'473d_'+'c0d3!'+'
-	}
+`function apiKeys()`
+	`{`
+	`var flag='HTB`
+		`{`
+		`n'+'3v3r_'+'run_0'+'bfu5c'+'473d_'+'c0d3!'+'`
+	`}`
 	
 
 we have var flag = htb
@@ -96,11 +96,11 @@ console.log('HTB{n'+'3v3r_'+'run_0'+'bfu5c'+'473d_'+'c0d3!'+'}')
 ======================
 part 2 from the code
 
-console['log']('HTB
-	{
-	j'+'4v45c'+'r1p7_'+'3num3'+'r4710'+'n_15_'+'k3y
-}
-');
+`console['log']('HTB`
+	`{`
+	`j'+'4v45c'+'r1p7_'+'3num3'+'r4710'+'n_15_'+'k3y`
+`}`
+`');`
 
 its like part 1 from the code
 
@@ -118,12 +118,14 @@ we have /keys.php
 but its XMLHttpRequest thats mean  create the object  to send http request 
 
 
-',xhr=new XMLHttpRequest(),_0x437f8b='/keys'+'.php';
-	xhr['open']('POST',_0x437f8b,!![]),xhr['send'](null)
-}
+`',xhr=new XMLHttpRequest(),_0x437f8b='/keys'+'.php';`
+	`xhr['open']('POST',_0x437f8b,!![]),xhr['send'](null)`
+`}`
 xhr open post thats mean we opened post request for keys.php
 
 curl http://94.237.59.174:30158 -X POST
+
+
 ![[Pasted image 20250615133610.png]]
 ================================================
 Once you have the secret key, try to decide it's encoding method, and decode it. Then send a 'POST' request to the same previous page with the decoded key as "key=DECODED_KEY". What is the flag you got?

@@ -123,10 +123,11 @@ but its XMLHttpRequest thats mean  create the object  to send http request
 `}`
 xhr open post thats mean we opened post request for keys.php
 
-curl http://94.237.59.174:30158 -X POST
+![Image: External Screenshot](https://i.ibb.co/vxLrPQFv/Screenshot-2025-06-15-133605.png)
 
 
-![[Pasted image 20250615133610.png]]
+
+
 ================================================
 Once you have the secret key, try to decide it's encoding method, and decode it. Then send a 'POST' request to the same previous page with the decoded key as "key=DECODED_KEY". What is the flag you got?
 
@@ -134,5 +135,6 @@ Answer : go Hashes.com
 pase 4150495f70336e5f37333537316e365f31355f66756e
 
 
-![[Pasted image 20250615133712.png]]
-![[Pasted image 20250615133723.png]]
+![Image: Key decoding example](https://i.ibb.co/7dFng1QQ/Pasted-image-20250615133712.png)
+
+![Image: Another External Example](https://i.ibb.co/8D0tPK6L/Pasted-image-20250615133723.png)
